@@ -7,3 +7,4 @@ for i in range(numbers_to_remove):
 
 output = ', '.join(map(str, list_of_numbers))
 print(output)
+# we use map to convert it to strings, because join doesn't work with integers
