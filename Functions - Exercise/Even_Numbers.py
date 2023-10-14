@@ -7,11 +7,12 @@
 # print(sequence_as_even_integers)
 #
 
-# num_as_string = input().split()
-# num_as_digits = []
-# for num in num_as_string:
-#     num_as_digits.append(int(num))
-# is_even = lambda x: x % 2 == 0
-# result = list(filter(is_even, num_as_digits))
-# print(result)
+num_as_string = input().split()
+num_as_digits = []
+for num in num_as_string:
+    num_as_digits.append(int(num))
+is_even = lambda x: x % 2 == 0
+result = list(filter(is_even, num_as_digits))
+print(result)
 
+# print([int(number) for number in input().split() if int(number) % 2 == 0])
