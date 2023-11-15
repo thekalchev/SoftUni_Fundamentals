@@ -5,3 +5,4 @@ for i in range(len(text)):
         emoji += text[i] + text[i+1]
         print(emoji)
         emoji = ''
+

@@ -1,7 +1,6 @@
-text = input()
-encrypted_text = ''
-for i in text:
+message = input()
+encrypted_message = ''
+for i in message:
     new_char = chr(ord(i) + 3)
-    encrypted_text += new_char
-
-print(encrypted_text)
+    encrypted_message += new_char
+print(encrypted_message)
